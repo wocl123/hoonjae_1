@@ -16,7 +16,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 ############################### status #########################################
-my_token = '사용자토큰'
+my_token = '5001595751:AAGAS0m5ntQo8fx_9VPn9LC0RIdZLCVy1bs'
 updater = Updater(my_token, use_context=True)
 bot = telegram.Bot(token=my_token)
 
